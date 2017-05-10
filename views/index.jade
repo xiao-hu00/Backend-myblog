@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div.main-con
+    form.login(action='/',method='post')
+      p #{info}
+      div
+        input(type='text', name='u_name',placeholder='账号')
+      div
+        input(type='password', name='u_pwd',placeholder='密码')
+      
+      button.login-btn(type='submit') 提交
+    

@@ -1,0 +1,184 @@
+/* reset css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+input,textarea,button{
+	appearance:none;
+	outline: 0;
+}
+/*login*/
+.main-con{
+	width: 310px;
+	height: 500px;
+	margin: 0 auto 0;
+	text-align: center;
+	border: 1px solid #cdcdcd;
+	box-shadow: 0px 10px 29px 10px #d1d1d1;
+}
+.main-con p {
+	color: red;
+	line-height: 30px;
+}
+.login{
+	margin-top: 80px;
+}
+.login-btn{
+	width: 60px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #4c9ac7;
+	border: 0;
+	color: #FFF;	
+}
+.login input{
+	margin: 10px 0;
+	border: 1px solid #d1d1d1;
+	width: 70%;
+	height: 30px;
+	padding: 0 10px;
+}
+.nav{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	background-color: #eee;
+}
+.nav ul{
+	width: 980px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+}
+.nav ul li{
+	float: left;
+	margin-right: 20px;
+	line-height: 50px;
+}
+.nav ul li a{
+	height: 48px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+}
+.nav ul li .curr{
+    border-bottom: 2px solid #4c9ac7;
+    color: #4c9ac7;
+}
+.content{
+	padding: 10px;
+	max-width: 980px;
+	width: auto;
+	margin: 50px auto 20px;
+}
+
+/**list**/
+.post-list{
+	width: 100%;	
+	font-size: 16px;
+}
+.post-list td{
+	height: 50px;
+	border: 1px solid #d1d1d1;
+	line-height: 50px;
+	text-align: center;
+}
+.post-list tr td:first-child{
+	text-align: left;
+	text-indent: 10px;
+}
+/*update-post*/
+.update-post{
+	width: 100%;
+}
+.update-post div{
+	margin: 10px 0;
+}
+.update-post input{
+    width: 50%;
+    height: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+.update-post textarea{
+	width: 70%;
+	border: 1px solid #d1d1d1;
+	line-height: 1.5;
+	height: 500px;
+	resize:none;
+	border-radius: 5px;
+}
+.update-post button{
+	width: 100px;
+	height: 40px;
+	background: #4c9ac7;
+	border: 0;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+}
+
+
+
+
+
+
+

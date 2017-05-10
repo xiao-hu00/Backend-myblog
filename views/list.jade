@@ -1,0 +1,19 @@
+extends layout
+block nav
+  div.nav
+    ul
+      li
+        a(href='/manager/add') 添加文章
+      li
+        a.curr(href='/manager/list') 文章列表
+block content
+  div.content
+    table.post-list
+      each post in posts
+        tr
+          td(width='60%')
+            a(href='/manager/detail/'+post._id)= post.title
+          td(width='20%')
+            a(href='/manager/update/'+post._id) 修改
+          td(width='20%')
+            a(href='/manager/delete/'+post._id) 删除

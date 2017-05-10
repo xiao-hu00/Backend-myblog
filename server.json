@@ -1,0 +1,13 @@
+{
+	"apps":	[{
+		"name"        : "blog",
+		"script"      : "bin/www",
+		"log_date_format"  : "YYYY-MM-DD HH:mm:SS",
+		"log_file"   : "logs/blog.log",
+		"error_file" : "logs/blog-err.log",
+		"out_file"   : "logs/blog-out.log",
+		"pid_file"   : "logs/blog.pid",
+		"exec_mode"  : "cluster_mode",
+		"watch"      :  true
+	}]
+}

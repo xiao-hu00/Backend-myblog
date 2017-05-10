@@ -1,0 +1,22 @@
+extends layout
+block nav
+  div.nav
+    ul
+      li
+        a(href='/manager/add') 添加文章
+      li
+        a(href='/manager/list') 文章列表
+block content
+  div.content
+    p= title
+    form.update-post(action='/manager/update/'+post._id,method='post')
+      div
+        input(type='text',name='u_title',value=post.title,placeholder='标题')
+      div
+        input(type='text',name='u_tag',value=post.tag,placeholder='标签')
+      
+      div
+        textarea(name='u_content')=post.content
+      
+      div
+        button(type='submit') 提交修改

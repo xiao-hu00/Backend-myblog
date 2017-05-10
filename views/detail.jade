@@ -1,0 +1,14 @@
+extends layout
+block nav
+  div.nav
+    ul
+      li
+        a(href='/manager/add') 添加文章
+      li
+        a(href='/manager/list') 文章列表
+block content
+  div.content
+    p= post.title
+    span= post.tag
+    div.markdown-body
+      != c

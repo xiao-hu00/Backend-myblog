@@ -1,0 +1,121 @@
+2017-04-18 15:03:33: 数据库连接成功!
+2017-04-18 15:03:30: [0mGET / [36m304 [0m279.712 ms - -[0m
+2017-04-18 15:03:30: [0mGET /stylesheets/style.css [36m304 [0m2.431 ms - -[0m
+2017-04-18 15:03:30: [0mGET /stylesheets/markdown.css [36m304 [0m2.469 ms - -[0m
+2017-04-18 15:03:87: [0mGET / [36m304 [0m35.471 ms - -[0m
+2017-04-18 15:03:88: [0mGET /stylesheets/style.css [36m304 [0m0.257 ms - -[0m
+2017-04-18 15:03:88: [0mGET /stylesheets/markdown.css [36m304 [0m0.186 ms - -[0m
+2017-04-18 15:03:70: [0mPOST / [36m302 [0m39.233 ms - 70[0m
+2017-04-18 15:03:76: [0mGET /manager/list [32m200 [0m56.350 ms - 866[0m
+2017-04-18 15:03:77: [0mGET /stylesheets/style.css [36m304 [0m0.816 ms - -[0m
+2017-04-18 15:03:77: [0mGET /stylesheets/markdown.css [36m304 [0m0.888 ms - -[0m
+2017-04-18 15:03:70: [0mGET /manager/add [32m200 [0m31.237 ms - 706[0m
+2017-04-18 15:03:71: [0mGET /stylesheets/style.css [36m304 [0m0.279 ms - -[0m
+2017-04-18 15:03:71: [0mGET /stylesheets/markdown.css [36m304 [0m0.183 ms - -[0m
+2017-04-18 15:03:86: [0mGET /manager/list [36m304 [0m19.016 ms - -[0m
+2017-04-18 15:03:87: [0mGET /stylesheets/style.css [36m304 [0m0.713 ms - -[0m
+2017-04-18 15:03:87: [0mGET /stylesheets/markdown.css [36m304 [0m0.932 ms - -[0m
+2017-04-18 15:03:74: <h1>title</h1>
+
+<p><code>
+var a = b;
+var c;
+</code></p>
+
+<p><em>xiexian</em></p>
+2017-04-18 15:03:76: [0mGET /manager/detail/58e490e2cae0be14bf486517 [32m200 [0m25.924 ms - 584[0m
+2017-04-18 15:03:77: [0mGET /stylesheets/style.css [36m304 [0m1.167 ms - -[0m
+2017-04-18 15:03:77: [0mGET /stylesheets/markdown.css [36m304 [0m0.874 ms - -[0m
+2017-04-18 15:03:60: [0mGET /manager/list [36m304 [0m19.455 ms - -[0m
+2017-04-18 15:03:61: [0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+2017-04-18 15:03:61: [0mGET /stylesheets/markdown.css [36m304 [0m0.787 ms - -[0m
+2017-04-18 15:03:23: [0mGET /manager/add [36m304 [0m16.990 ms - -[0m
+2017-04-18 15:03:24: [0mGET /stylesheets/style.css [36m304 [0m0.314 ms - -[0m
+2017-04-18 15:03:24: [0mGET /stylesheets/markdown.css [36m304 [0m0.282 ms - -[0m
+2017-04-18 15:03:36: [0mGET /manager/list [36m304 [0m18.908 ms - -[0m
+2017-04-18 15:03:36: [0mGET /stylesheets/style.css [36m304 [0m0.627 ms - -[0m
+2017-04-18 15:03:36: [0mGET /stylesheets/markdown.css [36m304 [0m0.700 ms - -[0m
+2017-04-18 15:03:53: <h1>ONE</h1>
+
+<p>this is a one title in a web</p>
+
+<h1>TWO</h1>
+
+<p>it is a second title</p>
+
+<h1>THREE</h1>
+
+<p><code>one code</code></p>
+
+<blockquote><p>get</p><p>post</p><p>put</p></blockquote>
+
+<p><strong>xxx</strong></p>
+2017-04-18 15:03:54: [0mGET /manager/detail/58ec883fc224bb1e7a54860a [32m200 [0m17.447 ms - 726[0m
+2017-04-18 15:03:55: [0mGET /stylesheets/style.css [36m304 [0m0.509 ms - -[0m
+2017-04-18 15:03:55: [0mGET /stylesheets/markdown.css [36m304 [0m1.378 ms - -[0m
+2017-04-19 09:41:43: <h1>ONE</h1>
+
+<p>this is a one title in a web</p>
+
+<h1>TWO</h1>
+
+<p>it is a second title</p>
+
+<h1>THREE</h1>
+
+<p><code>one code</code></p>
+
+<blockquote><p>get</p><p>post</p><p>put</p></blockquote>
+
+<p><strong>xxx</strong></p>
+2017-04-19 09:41:49: [0mGET /manager/detail/58ec883fc224bb1e7a54860a [36m304 [0m82.512 ms - -[0m
+2017-04-19 09:41:55: [0mGET /stylesheets/style.css [36m304 [0m1.005 ms - -[0m
+2017-04-19 09:41:55: [0mGET /stylesheets/markdown.css [36m304 [0m1.101 ms - -[0m
+2017-04-19 15:54:00: 数据库连接成功!
+2017-04-19 15:54:19: <h1>ONE</h1>
+
+<p>this is a one title in a web</p>
+
+<h1>TWO</h1>
+
+<p>it is a second title</p>
+
+<h1>THREE</h1>
+
+<p><code>one code</code></p>
+
+<blockquote><p>get</p><p>post</p><p>put</p></blockquote>
+
+<p><strong>xxx</strong></p>
+2017-04-19 15:54:51: [0mGET /manager/detail/58ec883fc224bb1e7a54860a [36m304 [0m345.253 ms - -[0m
+2017-04-19 15:54:53: [0mGET /stylesheets/style.css [36m304 [0m2.756 ms - -[0m
+2017-04-19 15:54:53: [0mGET /stylesheets/markdown.css [36m304 [0m0.450 ms - -[0m
+2017-04-19 15:54:42: [0mGET /manager/list [36m304 [0m67.515 ms - -[0m
+2017-04-19 15:54:43: [0mGET /stylesheets/style.css [36m304 [0m0.701 ms - -[0m
+2017-04-19 15:54:43: [0mGET /stylesheets/markdown.css [36m304 [0m1.314 ms - -[0m
+2017-04-19 15:54:43: [0mGET /manager/add [36m304 [0m23.368 ms - -[0m
+2017-04-19 15:54:44: [0mGET /stylesheets/style.css [36m304 [0m0.409 ms - -[0m
+2017-04-19 15:54:44: [0mGET /stylesheets/markdown.css [36m304 [0m1.002 ms - -[0m
+2017-04-19 15:54:90: [0mGET /manager/list [36m304 [0m20.937 ms - -[0m
+2017-04-19 15:54:91: [0mGET /stylesheets/style.css [36m304 [0m0.592 ms - -[0m
+2017-04-19 15:54:91: [0mGET /stylesheets/markdown.css [36m304 [0m0.162 ms - -[0m
+2017-04-19 15:54:05: <h1>ONE</h1>
+
+<p>this is a one title in a web</p>
+
+<h1>TWO</h1>
+
+<p>it is a second title</p>
+
+<h1>THREE</h1>
+
+<p><code>one code</code></p>
+
+<blockquote><p>get</p><p>post</p><p>put</p></blockquote>
+
+<p><strong>xxx</strong></p>
+2017-04-19 15:54:05: [0mGET /manager/detail/58ec883fc224bb1e7a54860a [36m304 [0m8.954 ms - -[0m
+2017-04-19 15:54:06: [0mGET /stylesheets/style.css [36m304 [0m0.204 ms - -[0m
+2017-04-19 15:54:06: [0mGET /stylesheets/markdown.css [36m304 [0m0.380 ms - -[0m
+2017-04-20 10:20:19: 数据库连接成功!
+2017-04-20 10:21:78: 数据库连接成功!
