@@ -3,7 +3,7 @@ var router = express.Router();
 
 var checkLogin = require('../tool/check').checkLogin;
 var post = require('../mongo/mongo').post;
-var p = require('../mongo/mongo').p;
+// var p = require('../mongo/mongo').p;
 var markdown = require('markdown').markdown;
 
 //添加文章
@@ -12,11 +12,12 @@ router.get('/add', function(req, res, next) {
 });
 
 router.post('/add', checkLogin, function(req, res, next) {
+  var p = new post;
   //提交文章数据到数据库
   // console.log(req.body.u_title,req.body.u_content)
-  p.title = req.body.u_title;
-  p.content = req.body.u_content;
-  p.tag = req.body.u_tag;
+  p.title = req.body.u_title || '';
+  p.content = req.body.u_content || '';
+  p.tag = req.body.u_tag || '';
   p.date = new Date;
   p.author = req.session.user;
   p.pv = 0;

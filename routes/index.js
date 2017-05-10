@@ -18,7 +18,7 @@ router.post('/',checkNotLogin, function(req, res, next) {
   // console.log(req.body.u_pwd && req.body.u_pwd == '11');
   user.find({name:req.body.u_name},function(err, m){
     if(err) return console.log(err);
-    // console.log(m);
+    console.log(sha1(req.body.u_pwd));
     if(m.length === 0){
       res.render('index',{info:'用户名错误！'});
     }else if(sha1(req.body.u_pwd) !== m[0].password){      
