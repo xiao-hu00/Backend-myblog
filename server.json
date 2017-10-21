@@ -1,6 +1,6 @@
 {
 	"apps":	[{
-		"name"        : "blog",
+		"name"        : "myblog",
 		"script"      : "bin/www",
 		"log_date_format"  : "YYYY-MM-DD HH:mm:SS",
 		"log_file"   : "logs/blog.log",
