@@ -17,8 +17,8 @@ var co = require('co');
 var OSS = require('ali-oss').Wrapper;
 var client = new OSS({
   region: 'oss-cn-shanghai',
-  accessKeyId: 'LTAIB7my2zJogSqD',
-  accessKeySecret: '5n6kl0hUb1lR2emNWcrPfSqXucT1i9',
+  accessKeyId: '',
+  accessKeySecret: '',
   bucket: 'myblogtt'
 });
 
